@@ -1,0 +1,14 @@
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.deps.json
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.dll
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.pdb
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.csprojAssemblyReference.cache
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\App.xaml.g.cs
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\Page2.xaml.g.cs
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.csproj.CoreCompileInputs.cache
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.AssemblyInfoInputs.cache
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.AssemblyInfo.cs
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\XamlC.stamp
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.dll
+Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.pdb
