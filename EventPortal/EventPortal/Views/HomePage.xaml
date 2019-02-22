@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:EventPortal.CustomControls"
+             x:Class="EventPortal.HomePage"
+             Title="HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="newsSource" RowHeight="96">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Height="96">
+                            <controls:EventsPill Margin="8,8"
+                                 UpperRightText="Updated"
+                                 HeadingText="{Binding NewsTitle}"
+                                 SubHeadingText="{Binding NewsDetails}"
+                                 LeftBottomText="{Binding NewsPublishedDate}"
+                                 RightBottomText="{Binding NewsPublishedTime}"
+                                 LeftImage="{Binding NewsImage}"></controls:EventsPill>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

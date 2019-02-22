@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EventPortal"
+             x:Class="EventPortal.MainPage"
+             Title="hAPPY"
+             MasterBehavior="Split">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master">
+            <ContentPage.Content>
+                <StackLayout>
+                    <Label Text="Welcome Master page"></Label>
+                    <Button Text="Page0" Clicked="Button_Clicked"></Button>
+                    <Button Text="Page1" Clicked="Button_Clicked1"></Button>
+                    <Button Text="Page2" Clicked="Button_Clicked2"></Button>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout>
+                    <Label Text="Detail HomePage"></Label>
+                </StackLayout>
+
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

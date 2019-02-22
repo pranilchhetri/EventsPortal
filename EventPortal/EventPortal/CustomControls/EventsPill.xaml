@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Frame       xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPortal.CustomControls.EventsPill"
+             x:Name="frmMain"
+             BackgroundColor="Wheat" 
+             Margin="0"
+             HeightRequest="96"
+             CornerRadius="12" 
+             HasShadow="True" 
+             Padding="12,6">
+    
+    <Grid Margin="0" 
+          HorizontalOptions="FillAndExpand" 
+          VerticalOptions="FillAndExpand"
+          RowSpacing="0"
+          ColumnSpacing="0">
+        
+        <Grid.RowDefinitions>
+            <!--<RowDefinition Height="8"></RowDefinition>-->
+            <RowDefinition Height="*"></RowDefinition>
+            <!--<RowDefinition Height="8"></RowDefinition>-->
+        </Grid.RowDefinitions>
+            <!--<Label Grid.Row="0" Grid.Column="0" 
+                   x:Name="UpperRightLabel" 
+                   Text="" 
+                   HorizontalOptions="End"  
+                   FontSize="8" 
+                   VerticalOptions="Center"
+                   >
+            
+        </Label>-->
+        
+            <Grid Grid.Row="0" Grid.Column="0" 
+              HorizontalOptions="FillAndExpand" 
+              VerticalOptions="FillAndExpand"
+              RowSpacing="8"
+              ColumnSpacing="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+                <Image Grid.Row="0" Grid.Column="0" 
+                   x:Name="LeftImg" 
+                   WidthRequest="80" 
+                   HeightRequest="80"
+                   Aspect="AspectFill"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Start">
+                </Image>
+            <Grid Grid.Row="0" Grid.Column="1" 
+                  VerticalOptions="Start" 
+                  HorizontalOptions="Start" 
+                  Margin="0"
+                  RowSpacing="0"
+                  ColumnSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="24"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="12"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" 
+                       x:Name="Headinglbl" 
+                       Text="" 
+                       FontSize="Medium" 
+                       FontAttributes="Bold"
+                       HorizontalOptions="Start"
+                       ></Label>
+                <Label Grid.Row="1" Grid.Column="0"
+                       x:Name="SubHeadinglbl" 
+                       Text=""
+                       FontSize="Micro" 
+                       HorizontalOptions="Start"
+                       >
+                    
+                </Label>
+                <Grid Grid.Row="2" Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="12"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.Column="0" 
+                   x:Name="LeftBottomlbl" Text="" 
+                   FontSize="10" 
+                   FontAttributes="Bold"
+                   HorizontalOptions="Start"  
+                   VerticalOptions="Center"
+                   ></Label>
+
+                    <Label Grid.Row="0" Grid.Column="1" 
+                   x:Name="RightBottomlbl" 
+                   Text="" 
+                   FontSize="10" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="End"  
+                   VerticalOptions="Center"
+                   ></Label>
+                </Grid>
+            </Grid>
+            </Grid>
+
+        
+    </Grid>
+</Frame>
