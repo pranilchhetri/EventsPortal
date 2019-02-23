@@ -6,22 +6,25 @@
              Title="HomePage">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="newsSource" RowHeight="96">
+            <ListView x:Name="newsSource" 
+                      RowHeight="104"
+                      ItemTapped="NewsSource_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell Height="96">
                             <controls:EventsPill Margin="8,8"
-                                 UpperRightText="Updated"
+                                 
                                  HeadingText="{Binding NewsTitle}"
                                  SubHeadingText="{Binding NewsDetails}"
                                  LeftBottomText="{Binding NewsPublishedDate}"
                                  RightBottomText="{Binding NewsPublishedTime}"
-                                 LeftImage="{Binding NewsImage}"></controls:EventsPill>
+                                 LeftImage="{Binding NewsImage}">
+                            </controls:EventsPill>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

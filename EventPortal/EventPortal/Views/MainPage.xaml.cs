@@ -23,12 +23,12 @@ namespace EventPortal
         }
         private void Button_Clicked1(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new Page2());
+            Detail = new NavigationPage(new NewsDetails());
             IsPresented = false;
         }
         private void Button_Clicked2(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new Page2());
+            Detail = new NavigationPage(new NewsDetails());
             IsPresented = true;
         }
     }

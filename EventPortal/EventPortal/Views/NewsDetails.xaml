@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPortal.NewsDetails"
+             x:Name="title"
+             >
+    <ContentPage.Content>
+        <StackLayout Spacing="16" Padding="8,12">
+            <Frame BackgroundColor="#F0F0F0" CornerRadius="8" Padding="4">
+                <StackLayout Orientation="Horizontal" Spacing="16" HeightRequest="96" Padding="0" Margin="0">
+                    <Image x:Name="titleImg" HeightRequest="96" WidthRequest="104" Aspect="AspectFill">
+                    </Image>
+                    <StackLayout HorizontalOptions="FillAndExpand" Spacing="0">
+                        <Label x:Name="titleLabel"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           TextColor="#686868">
+
+                        </Label>
+                        <Label x:Name="ReporterLabel"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           TextColor="#707070"></Label>
+                        <Label x:Name="locationLabel"
+                           FontSize="Medium"
+                           FontAttributes="Bold"
+                           TextColor="#707070"></Label>
+
+                        <StackLayout Orientation="Horizontal">
+                            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                                <Image HeightRequest="12"
+                               WidthRequest="12"
+                               Source="icon_date"
+                               HorizontalOptions="Start">
+
+                                </Image>
+                                <Label x:Name="DateLabel"
+                           FontSize="Small"
+                               FontAttributes="Bold"
+                           TextColor="#505050"
+                               HorizontalOptions="Start"
+                               HorizontalTextAlignment="Start"></Label>
+                            </StackLayout>
+                            <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal">
+                                <Image HeightRequest="12"
+                               WidthRequest="12"
+                               Source="icon_time"
+                               HorizontalOptions="End">
+
+                                </Image>
+                                <Label x:Name="TimeLabel"
+                           FontSize="Small"
+                           TextColor="#505050"
+                               FontAttributes="Bold"
+                                HorizontalOptions="End"
+                               HorizontalTextAlignment="End"></Label>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Padding="8" BackgroundColor="#F0F0F0" CornerRadius="8">
+                <Label x:Name="DetailsLabel"
+                   FontSize="Small"
+                   TextColor="#909090">
+
+                </Label>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
