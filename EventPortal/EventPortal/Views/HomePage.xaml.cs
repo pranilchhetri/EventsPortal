@@ -59,7 +59,7 @@ namespace EventPortal
                     NewsPublishedDate = "2030-08-09",
                     NewsPublishedTime = "18:40",
                     NewsGuid = Guid.NewGuid(),
-                    NewsAuthor = "Antoine Prasad Jharp",
+                    NewsAuthor = "Zimbae Prasad Jharp",
                     NewsLocation = "Lubhu-35, Lalitpur"
                 }
                 );
