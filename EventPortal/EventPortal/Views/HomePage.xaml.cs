@@ -42,7 +42,7 @@ namespace EventPortal
                 });
                 GlobalNewsLists.Add(new NewsItems
                 {
-                    NewsTitle = "Robert Mueller",
+                    NewsTitle = "Birbal Zimba",
                     NewsDetails = "Special counsel Robert Mueller will not deliver a report to the attorney general next week, as was previously reported by multiple outlets,Attorney General William Barr was preparing to announce the completion of Mueller's investigation into any links between President Donald Trump and Russia as soon as next week, CNN reported Wednesday.a senior Department of Justice official told NBC News on Friday.",
                     NewsImage = "ddf.png",
                     NewsPublishedDate = "202-08-09",
