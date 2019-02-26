@@ -8,17 +8,38 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Master">
             <ContentPage.Content>
-                <StackLayout Spacing="24">
-                    <Label Text="Welcome To NRNA"
-                           FontSize="Medium"
-                           FontAttributes="Bold"
-                           HorizontalTextAlignment="Center"></Label>
-                    <Image HorizontalOptions="Center"
-                           HeightRequest="300"
-                           WidthRequest="300"
+                <ScrollView>
+                    <StackLayout Spacing="8" Padding="16,0">
+                        <Image HorizontalOptions="Center"
+                           HeightRequest="200"
+                           WidthRequest="200"
+                           Margin="8"
                            Source="brba.png"></Image>
-                    
-                </StackLayout>
+                        <Label Text="NRN Australia Mission Statement:
+                           To unite all Non Resident Nepali (NRNs) 
+                           people through out the Australia 
+                           under an umbrella to form a 
+                           unified and institutional movement 
+                           to achieve the mutual benefit between 
+                           all NRNs and people of Nepal."></Label>
+                        <Label Text="contact: 1800 954 540"></Label>
+                        <Label Text="helpdesk@nrn.org.au"></Label>
+                        <Button CornerRadius="16" 
+                                Margin="0,16"
+                                Text="HomePage" 
+                                TextColor="Black" 
+                                Clicked="Home_Clicked" 
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="FillAndExpand"></Button>
+                        <Button CornerRadius="16" 
+                                Margin="0,16"
+                                Text="Login" 
+                                TextColor="Black" 
+                                Clicked="GoToLogin" 
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="FillAndExpand"></Button>
+                    </StackLayout>
+                </ScrollView>
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>

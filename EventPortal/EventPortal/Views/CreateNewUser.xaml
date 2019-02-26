@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPortal.Views.CreateNewUser"
+             Title="Sign Up">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout HorizontalOptions="FillAndExpand" Spacing="8" Padding="24,16">
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblUsername" Text="Username" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblPassword" Text="Password" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblConfirmPassword" Text="Confirm Password" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblEmail" Text="Email" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblAddress" Text="Address" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                </StackLayout>
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblPhone" Text="Phone" TextColor="Black" FontSize="Small"></Label>
+                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" Keyboard="Telephone"></Entry>
+                </StackLayout>
+                
+                <StackLayout Padding="0" Margin="0">
+                    <Label x:Name="lblPicker" Text="User Group" TextColor="Black" FontSize="Small"></Label>
+                    <Picker x:Name="picker" SelectedItem=""></Picker>
+                </StackLayout>
+                
+                <Button CornerRadius="16" 
+                                Text="Create UserGroup" 
+                                TextColor="Black" 
+                                Margin="0" 
+                                BorderColor="DarkGray"
+                                BackgroundColor="DarkGray"
+                                HorizontalOptions="FillAndExpand"></Button>
+                <Button CornerRadius="16" 
+                                Text="Sign Up  " 
+                                TextColor="Black" 
+                                Margin="0,16" 
+                                BorderColor="DarkGray"
+                                BackgroundColor="ForestGreen"
+                                HorizontalOptions="FillAndExpand"></Button>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

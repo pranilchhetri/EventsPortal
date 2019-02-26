@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventPortal.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +17,7 @@ namespace EventPortal
             IsPresented = false;
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Home_Clicked(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new HomePage());
             IsPresented = false;
@@ -30,6 +31,14 @@ namespace EventPortal
         {
             Detail = new NavigationPage(new NewsDetails());
             IsPresented = true;
+        }
+
+        private async void GoToLogin(object sender, EventArgs e)
+        {
+            IsPresented = false;
+            Detail = new NavigationPage(new Login());
+            //Detail = new NavigationPage(new Login());
+
         }
     }
 }
