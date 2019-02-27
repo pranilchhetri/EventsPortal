@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EventPortal.Views.CreateNewEvent"
+             Title="Create Event">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="24" Spacing="4">
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Event Name"></Label>
+                    <Entry PlaceholderColor="LightGray"></Entry>
+                </StackLayout>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Location"></Label>
+                    <Entry PlaceholderColor="LightGray"></Entry>
+                </StackLayout>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Date"></Label>
+                    <DatePicker></DatePicker>
+                </StackLayout>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Date"></Label>
+                    <TimePicker></TimePicker>
+                </StackLayout>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Organizer"></Label>
+                    <Picker x:Name="organizer" ItemsSource="{Binding }"></Picker>
+                </StackLayout>
+                <StackLayout HorizontalOptions="FillAndExpand">
+                    <Label Text="Event Details"></Label>
+                    <Editor VerticalOptions="FillAndExpand" HeightRequest="96"></Editor>
+                </StackLayout>
+                <Button CornerRadius="16" 
+                                Text="Create" 
+                                TextColor="Black" 
+                                Margin="0,16" 
+                                BorderColor="DarkGray"
+                                BackgroundColor="Orange"
+                                HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

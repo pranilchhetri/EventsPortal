@@ -42,13 +42,24 @@
                                 Margin="0" 
                                 BorderColor="DarkGray"
                                 BackgroundColor="DarkGray"
-                                HorizontalOptions="FillAndExpand"></Button>
+                                HorizontalOptions="FillAndExpand"
+                                Clicked="CreateGroup_clicked"></Button>
+                <StackLayout x:Name="newGroup"  
+                             Padding="0"
+                             Margin="0" 
+                             IsVisible="False">
+                    <Entry x:Name="createGroupEntryHere"
+                           PlaceholderColor="DarkGray" 
+                           BackgroundColor="#F0F0F0" 
+                           Completed="newGroupEntry_Completed"></Entry>
+                </StackLayout>
+                
                 <Button CornerRadius="16" 
                                 Text="Sign Up  " 
                                 TextColor="Black" 
                                 Margin="0,16" 
                                 BorderColor="DarkGray"
-                                BackgroundColor="ForestGreen"
+                                BackgroundColor="Orange"
                                 HorizontalOptions="FillAndExpand"></Button>
 
 

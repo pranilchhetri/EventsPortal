@@ -1,12 +1,12 @@
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\EventPortal.Android.nuget.stamp
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\EventPortal.Android.csprojAssemblyReference.cache
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\EventPortal.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\EventPortal.Android.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\com.companyname.EventPortal.apk
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\com.companyname.EventPortal-Signed.apk
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\EventPortal.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\EventPortal.pdb
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\EventPortal.Android.csprojAssemblyReference.cache
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\libraryimports.cache.stamp
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res.flag
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\EventPortal.Android.csproj.CoreCompileInputs.cache
@@ -37,6 +37,8 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\brba.jpg
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\news_image.png
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\ddf.png
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\login.png
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\home.png
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\R.cs.flag
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\R.txt
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\uploadflags.txt
@@ -108,6 +110,7 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Xml.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\res\drawable\event.png
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Debug\EventPortal.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\linksrc\EventPortal.dll.mdb

@@ -24,20 +24,63 @@
                            all NRNs and people of Nepal."></Label>
                         <Label Text="contact: 1800 954 540"></Label>
                         <Label Text="helpdesk@nrn.org.au"></Label>
-                        <Button CornerRadius="16" 
-                                Margin="0,16"
-                                Text="HomePage" 
-                                TextColor="Black" 
-                                Clicked="Home_Clicked" 
-                                BackgroundColor="Transparent"
-                                HorizontalOptions="FillAndExpand"></Button>
-                        <Button CornerRadius="16" 
-                                Margin="0,16"
-                                Text="Login" 
-                                TextColor="Black" 
-                                Clicked="GoToLogin" 
-                                BackgroundColor="Transparent"
-                                HorizontalOptions="FillAndExpand"></Button>
+
+                        <BoxView HeightRequest="1"
+                                 Margin="0,8" 
+                                 BackgroundColor="LightGray"
+                                 HorizontalOptions="FillAndExpand">
+                            
+                        </BoxView>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand"
+                                     Spacing="32"
+                                     HeightRequest="32"
+                                     VerticalOptions="Center">
+                            <Image Source="Home.png" 
+                                   HeightRequest="24" 
+                                   WidthRequest="24" 
+                                   Aspect="AspectFit">
+                                
+                            </Image>
+                            <Label Text="Home" VerticalOptions="Center"></Label>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Home_Clicked"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand"
+                                     Spacing="32"
+                                     HeightRequest="32"
+                                     VerticalOptions="Center">
+                            <Image Source="login.png" 
+                                   HeightRequest="24" 
+                                   WidthRequest="24" 
+                                   Aspect="AspectFit">
+
+                            </Image>
+                            <Label Text="Login" VerticalOptions="Center"></Label>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="GoToLogin"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal"
+                                     HorizontalOptions="FillAndExpand"
+                                     Spacing="32"
+                                     HeightRequest="32"
+                                     VerticalOptions="Center">
+                            <Image Source="event.png" 
+                                   HeightRequest="24" 
+                                   WidthRequest="24" 
+                                   Aspect="AspectFit">
+
+                            </Image>
+                            <Label Text="Create Event" VerticalOptions="Center"></Label>
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="CreateNewEvent"></TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+
+
                     </StackLayout>
                 </ScrollView>
             </ContentPage.Content>

@@ -22,17 +22,12 @@ namespace EventPortal
             Detail = new NavigationPage(new HomePage());
             IsPresented = false;
         }
-        private void Button_Clicked1(object sender, EventArgs e)
+        private void CreateNewEvent(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new NewsDetails());
+            Detail = new NavigationPage(new CreateNewEvent());
             IsPresented = false;
         }
-        private void Button_Clicked2(object sender, EventArgs e)
-        {
-            Detail = new NavigationPage(new NewsDetails());
-            IsPresented = true;
-        }
-
+        
         private async void GoToLogin(object sender, EventArgs e)
         {
             IsPresented = false;

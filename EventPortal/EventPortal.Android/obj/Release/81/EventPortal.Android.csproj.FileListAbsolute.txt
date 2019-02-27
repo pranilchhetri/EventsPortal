@@ -100,6 +100,9 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\android\assets\System.Xml.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\res\drawable\login.png
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\res\drawable\home.png
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\res\drawable\event.png
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\EventPortal.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\EventPortal.Android.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\FormsViewGroup.dll.mdb
