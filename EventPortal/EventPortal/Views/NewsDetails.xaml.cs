@@ -15,16 +15,16 @@ namespace EventPortal
 		public NewsDetails()
 		{
 			InitializeComponent ();
-            var item = HomePage.GlobalNewsLists.Find(x => x.NewsGuid == HomePage.SelectedGuid);
+            var item = MainPage.Results.Find(x => x.Id == HomePage.SelectedId);
             //contentPageTitle.Title = item.NewsTitle.Substring(24) + "...";
-            title.Title = item.NewsTitle;
-            titleImg.Source = item.NewsImage;
-            titleLabel.Text = item.NewsTitle;
-            ReporterLabel.Text = item.NewsAuthor;
-            locationLabel.Text = item.NewsLocation;
-            DateLabel.Text = item.NewsPublishedDate;
-            TimeLabel.Text = item.NewsPublishedTime;
-            DetailsLabel.Text = item.NewsDetails;
+            title.Title = item.Title;
+            titleImg.Source = item.ImageSource;
+            titleLabel.Text = item.Title;
+            ReporterLabel.Text = item.Author;
+            locationLabel.Text = item.Location;
+            DateLabel.Text = item.Published.ToLongDateString();
+            TimeLabel.Text = item.Published.ToLongTimeString();
+            DetailsLabel.Text = item.Body;
             //foreach(HomePage.SelectedGuid in a.NewsItems)
         }
 	}

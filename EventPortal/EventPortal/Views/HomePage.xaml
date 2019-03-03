@@ -11,14 +11,13 @@
                       ItemTapped="NewsSource_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell Height="96">
+                        <ViewCell Height="120">
                             <controls:EventsPill Margin="8,8"
                                  
-                                 HeadingText="{Binding NewsTitle}"
-                                 SubHeadingText="{Binding NewsDetails}"
-                                 LeftBottomText="{Binding NewsPublishedDate}"
-                                 RightBottomText="{Binding NewsPublishedTime}"
-                                 LeftImage="{Binding NewsImage}">
+                                 HeadingText="{Binding Title}"
+                                 SubHeadingText="{Binding Body}"
+                                 LeftBottomText="{Binding Published}"
+                                 LeftImage="{Binding ImageSource}">
                             </controls:EventsPill>
                         </ViewCell>
                     </DataTemplate>

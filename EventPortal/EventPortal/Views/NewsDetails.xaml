@@ -7,54 +7,64 @@
     <ContentPage.Content>
         <StackLayout Spacing="16" Padding="8,12">
             <Frame BackgroundColor="#F0F0F0" CornerRadius="8" Padding="4">
-                <StackLayout Orientation="Horizontal" Spacing="16" HeightRequest="96" Padding="0" Margin="0">
-                    <Image x:Name="titleImg" HeightRequest="96" WidthRequest="104" Aspect="AspectFill">
-                    </Image>
-                    <StackLayout HorizontalOptions="FillAndExpand" Spacing="0">
-                        <Label x:Name="titleLabel"
+                <StackLayout Padding="0" Spacing="4">
+                    <StackLayout Orientation="Horizontal" Spacing="16" HeightRequest="96" Padding="0" Margin="0">
+                        <Image x:Name="titleImg" HeightRequest="96" WidthRequest="104" Aspect="AspectFit">
+                        </Image>
+                        <StackLayout HorizontalOptions="FillAndExpand" Spacing="2">
+                            <Label x:Name="titleLabel"
                            FontSize="Large"
                            FontAttributes="Bold"
                            TextColor="#686868">
+                             </Label>
+                             <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Image Source="people" HeightRequest="14" WidthRequest="14" Aspect="AspectFit"></Image>
+                                <Label x:Name="ReporterLabel"
+                                   FontSize="Small"
+                                   FontAttributes="Bold"
+                                   TextColor="#707070"> 
+                                </Label> 
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" Spacing="4">
+                                <Image Source="location" HeightRequest="14" WidthRequest="14" Aspect="AspectFit"></Image>
+                                <Label x:Name="locationLabel"
+                                       FontSize="Small"
+                                       FontAttributes="Bold"
+                                       TextColor="#707070">
+                                    
+                                </Label>     
+                            </StackLayout>
+                        </StackLayout>
 
-                        </Label>
-                        <Label x:Name="ReporterLabel"
-                           FontSize="Medium"
-                           FontAttributes="Bold"
-                           TextColor="#707070"></Label>
-                        <Label x:Name="locationLabel"
-                           FontSize="Medium"
-                           FontAttributes="Bold"
-                           TextColor="#707070"></Label>
-
-                        <StackLayout Orientation="Horizontal">
-                            <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
-                                <Image HeightRequest="12"
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" Spacing="16">
+                        <StackLayout HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                            <Image HeightRequest="12"
                                WidthRequest="12"
                                Source="icon_date"
                                HorizontalOptions="Start">
 
-                                </Image>
-                                <Label x:Name="DateLabel"
+                            </Image>
+                            <Label x:Name="DateLabel"
                            FontSize="Small"
                                FontAttributes="Bold"
                            TextColor="#505050"
                                HorizontalOptions="Start"
                                HorizontalTextAlignment="Start"></Label>
-                            </StackLayout>
-                            <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal">
-                                <Image HeightRequest="12"
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="EndAndExpand" Orientation="Horizontal">
+                            <Image HeightRequest="12"
                                WidthRequest="12"
                                Source="icon_time"
                                HorizontalOptions="End">
 
-                                </Image>
-                                <Label x:Name="TimeLabel"
+                            </Image>
+                            <Label x:Name="TimeLabel"
                            FontSize="Small"
                            TextColor="#505050"
                                FontAttributes="Bold"
                                 HorizontalOptions="End"
                                HorizontalTextAlignment="End"></Label>
-                            </StackLayout>
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>

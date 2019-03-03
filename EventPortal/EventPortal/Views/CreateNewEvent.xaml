@@ -19,7 +19,7 @@
                     <DatePicker></DatePicker>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
-                    <Label Text="Date"></Label>
+                    <Label Text="Time"></Label>
                     <TimePicker></TimePicker>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">

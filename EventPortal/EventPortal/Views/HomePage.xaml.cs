@@ -16,8 +16,10 @@ namespace EventPortal
 		public HomePage()
 		{
 			InitializeComponent ();
-           
-            newsSource.ItemsSource =AddNews();
+
+            newsSource.ItemsSource = MainPage.Results;
+            //newsSource.ItemsSource =AddNews();
+
             
 		}
         public static List<NewsItems> GlobalNewsLists = new List<NewsItems>();
@@ -66,11 +68,11 @@ namespace EventPortal
             }
             return GlobalNewsLists;
         }
-        public static Guid SelectedGuid;
+        public static int SelectedId;
         private async void NewsSource_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            var newsItem = e.Item as NewsItems;
-            SelectedGuid = newsItem.NewsGuid;
+            var events = e.Item as Event;
+            SelectedId = events.Id;
             await Navigation.PushAsync(new NewsDetails());
         }
     }

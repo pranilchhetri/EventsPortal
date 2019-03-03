@@ -4,6 +4,7 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Xml.dll

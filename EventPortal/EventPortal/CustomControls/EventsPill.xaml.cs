@@ -140,7 +140,7 @@ namespace EventPortal.CustomControls
             }
             if (propertyName == RightBottomTextProperty.PropertyName)
             {
-                RightBottomlbl.Text = RightBottomText;
+               // RightBottomlbl.Text = RightBottomText;
             }
         }
 
