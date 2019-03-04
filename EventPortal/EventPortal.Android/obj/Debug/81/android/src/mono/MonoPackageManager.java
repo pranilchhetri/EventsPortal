@@ -110,6 +110,8 @@ class MonoPackageManager_Resources {
 		"EventPortal.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Rg.Plugins.Popup.dll",
+		"Rg.Plugins.Popup.Droid.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

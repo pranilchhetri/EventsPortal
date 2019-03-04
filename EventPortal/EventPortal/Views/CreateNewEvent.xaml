@@ -8,27 +8,27 @@
             <StackLayout Padding="24" Spacing="4">
                 <StackLayout HorizontalOptions="FillAndExpand">
                     <Label Text="Event Name"></Label>
-                    <Entry PlaceholderColor="LightGray"></Entry>
+                    <Entry x:Name="lblEventName" PlaceholderColor="LightGray"></Entry>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
                     <Label Text="Location"></Label>
-                    <Entry PlaceholderColor="LightGray"></Entry>
+                    <Entry x:Name="lblLocation"  PlaceholderColor="LightGray"></Entry>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
                     <Label Text="Date"></Label>
-                    <DatePicker></DatePicker>
+                    <DatePicker x:Name="lblDate" ></DatePicker>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
-                    <Label Text="Time"></Label>
-                    <TimePicker></TimePicker>
+                    <Label  Text="Time"></Label>
+                    <TimePicker x:Name="lblTime"></TimePicker>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
-                    <Label Text="Organizer"></Label>
-                    <Picker x:Name="organizer" ItemsSource="{Binding }"></Picker>
+                    <Label  Text="Organizer"></Label>
+                    <Picker x:Name="organizer" ItemsSource="{Binding }" ></Picker>
                 </StackLayout>
                 <StackLayout HorizontalOptions="FillAndExpand">
-                    <Label Text="Event Details"></Label>
-                    <Editor VerticalOptions="FillAndExpand" HeightRequest="96"></Editor>
+                    <Label  Text="Event Details"></Label>
+                    <Editor x:Name="lblEventDetails" VerticalOptions="FillAndExpand" HeightRequest="96"></Editor>
                 </StackLayout>
                 <Button CornerRadius="16" 
                                 Text="Create" 
@@ -36,7 +36,8 @@
                                 Margin="0,16" 
                                 BorderColor="DarkGray"
                                 BackgroundColor="Orange"
-                                HorizontalOptions="FillAndExpand"></Button>
+                                HorizontalOptions="FillAndExpand"
+                                Clicked="Create_Clicked"></Button>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

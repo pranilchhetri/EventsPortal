@@ -1,4 +1,5 @@
-﻿using EventPortal.Models;
+﻿using EventPortal.Data;
+using EventPortal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace EventPortal
 		{
 			InitializeComponent ();
 
-            newsSource.ItemsSource = MainPage.Results;
+            newsSource.ItemsSource = RestServices.events;
             //newsSource.ItemsSource =AddNews();
 
             

@@ -5,6 +5,8 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Rg.Plugins.Popup.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Rg.Plugins.Popup.Droid.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Xml.dll
@@ -43,4 +45,13 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Collections.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Diagnostics.Debug.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Reflection.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Threading.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Runtime.Extensions.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\System.Linq.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Debug\81\android\assets\Mono.Security.dll

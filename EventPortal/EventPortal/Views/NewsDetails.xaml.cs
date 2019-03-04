@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EventPortal.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace EventPortal
 		public NewsDetails()
 		{
 			InitializeComponent ();
-            var item = MainPage.Results.Find(x => x.Id == HomePage.SelectedId);
+            var item = RestServices.events.Find(x => x.Id == HomePage.SelectedId);
             //contentPageTitle.Title = item.NewsTitle.Substring(24) + "...";
             title.Title = item.Title;
             titleImg.Source = item.ImageSource;

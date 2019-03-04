@@ -12,7 +12,9 @@ Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\Eve
 Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\XamlC.stamp
 Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.dll
 Z:\Git_Projects\EventPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.pdb
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.csprojAssemblyReference.cache
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.deps.json
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.dll
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\CustomControls\EventsPill.xaml.g.cs
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\Views\CreateNewEvent.xaml.g.cs
@@ -24,9 +26,8 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.csproj.CoreCompileInputs.cache
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.AssemblyInfoInputs.cache
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.AssemblyInfo.cs
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.deps.json
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.dll
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\bin\Debug\netstandard2.0\EventPortal.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.pdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\EventPortal.csprojAssemblyReference.cache
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\Views\PopupSingle.xaml.g.cs
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal\obj\Debug\netstandard2.0\XamlC.stamp

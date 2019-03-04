@@ -1,4 +1,5 @@
-﻿using EventPortal.Models;
+﻿using EventPortal.Data;
+using EventPortal.Models;
 using EventPortal.Views;
 using Newtonsoft.Json;
 using System;
@@ -17,39 +18,24 @@ namespace EventPortal
 {
     public partial class MainPage : MasterDetailPage
     {
-        HttpClient client;
-        public static List<Event> Results = new List<Event>();
+        RestServices restServices;
+        
         public MainPage()
         {
             InitializeComponent();
-            FetchData(Constants.FetchDataUrl);
-           
+            restServices = new RestServices();
+            FetchItemFromServer();
         }
-        public async void FetchData(string url)
+
+        private async void FetchItemFromServer()
         {
-           
-            client = new HttpClient();
-            var uri = new Uri(string.Format(url, string.Empty));
-
-            try
+            bool x = await restServices.FetchItemAsync(Constants.FetchEventsUrl);
+            if (x)
             {
-                var response = await client.GetAsync(uri);
-                if (response.IsSuccessStatusCode)
-                {
-                    var content = await response.Content.ReadAsStringAsync();
-                    Results = JsonConvert.DeserializeObject<List<Event>>(content);
-                    //Items = JsonConvert.DeserializeObject<Apple>(content);
-                    Detail = new NavigationPage(new HomePage());
-                    IsPresented = false;
-
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(@"ERROR {0}", ex.Message);
+                Detail = new NavigationPage(new HomePage());
+                IsPresented = false;
             }
         }
-
         private void Home_Clicked(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new HomePage());
