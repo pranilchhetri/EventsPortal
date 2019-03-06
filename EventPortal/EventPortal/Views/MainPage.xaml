@@ -91,7 +91,7 @@
         <ContentPage>
             <ContentPage.Content>
                 <StackLayout>
-                    <Label Text="Detail HomePage"></Label>
+                    <Label Text="Fetching Events..."></Label>
                 </StackLayout>
 
             </ContentPage.Content>

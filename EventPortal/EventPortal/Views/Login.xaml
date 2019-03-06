@@ -9,11 +9,13 @@
                      Padding="24,0"
                      Spacing="16">
             <Entry 
+                x:Name="lblUsername"
                 Placeholder="Username"
                 PlaceholderColor="DarkGray"
                 HorizontalOptions="FillAndExpand"
                 HeightRequest="48"></Entry>
             <Entry IsPassword="True"
+                   x:Name="lblPassword"
                    Placeholder="Password"
                    PlaceholderColor="DarkGray"
                 HorizontalOptions="FillAndExpand"
@@ -25,7 +27,8 @@
                                 TextColor="White" 
                                 Margin="0,16" 
                                 BackgroundColor="Orange"
-                                HorizontalOptions="FillAndExpand"></Button>
+                                HorizontalOptions="FillAndExpand"
+                                Clicked="Login_Clicked"></Button>
             <Label HorizontalOptions="Center" 
                    Margin="0,16"  
                    Text="Not a Member? Sign up Now" >

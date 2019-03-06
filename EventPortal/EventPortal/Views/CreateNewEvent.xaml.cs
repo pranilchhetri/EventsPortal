@@ -39,28 +39,36 @@ namespace EventPortal.Views
 
         private async void Create_Clicked(object sender, EventArgs e)
         {
-            Event events = new Event();
-            events.Title = lblEventName.Text;
-            events.Body = lblEventDetails.Text;
-            events.Author = userGroup[organizer.SelectedIndex];
-            events.Location = lblLocation.Text;
-            events.Published = lblDate.Date + lblTime.Time;
-            events.ImageSource = "https://res.cloudinary.com/collabizm/image/facebook/c_fill,w_200,h_200,q_auto,g_face,dpr_2,f_auto/v1/1249700231790145";
-
-            bool x=await restServices.SaveItemAsync(events, true);
-            if (x)
+            if (!string.IsNullOrEmpty(Helpers.Settings.LoginUser))
             {
-                lblEventName.Text="";
-                lblEventDetails.Text="";
-                lblLocation.Text="";
-                Console.WriteLine("EventPortal : successfully upload data..");
-                PopupSingle p = new PopupSingle();
-                await Navigation.PushPopupAsync(p);
+                Event events = new Event();
+                events.Title = lblEventName.Text;
+                events.Body = lblEventDetails.Text;
+                events.Author = userGroup[organizer.SelectedIndex];
+                events.Location = lblLocation.Text;
+                events.Published = lblDate.Date + lblTime.Time;
+                events.ImageSource = "https://www.oldmissioncapital.com/wp-content/uploads/icon-people.png";
 
+                bool x = await restServices.SaveItemAsync(events, true);
+                if (x)
+                {
+                    lblEventName.Text = "";
+                    lblEventDetails.Text = "";
+                    lblLocation.Text = "";
+                    Console.WriteLine("EventPortal : successfully upload data..");
+                    PopupSingle p = new PopupSingle();
+                    await Navigation.PushPopupAsync(p);
+
+                }
+                else
+                {
+                    Console.WriteLine("EventPortal : Error occured uploading data..");
+                }
             }
             else
             {
-                Console.WriteLine("EventPortal : Error occured uploading data..");
+                UnableCreateEvent p = new UnableCreateEvent();
+                await Navigation.PushPopupAsync(p);
             }
 
         }

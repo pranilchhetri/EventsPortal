@@ -45,7 +45,6 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\R.cs.flag
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\R.txt
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\uploadflags.txt
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\EventPortal.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Mono.Android.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\mscorlib.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Newtonsoft.Json.pdb
@@ -67,6 +66,12 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\b
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\System.ServiceModel.Internals.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\System.Web.Services.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Mono.Security.pdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\FormsViewGroup.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Rg.Plugins.Popup.Droid.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\EventPortal.Android.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\res\drawable\green_dot.png
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\EventPortal.Android.dll
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\EventPortal.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\Mono.Android.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\mscorlib.pdb
@@ -89,10 +94,9 @@ C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\o
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\System.Web.Services.pdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\Mono.Security.pdb
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\FormsViewGroup.dll.mdb
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Rg.Plugins.Popup.Droid.dll.mdb
-C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\bin\Release\Plugin.Settings.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\EventPortal.Android.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\FormsViewGroup.dll.mdb
+C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\Plugin.Settings.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\Rg.Plugins.Popup.Droid.dll.mdb
 C:\Users\taman\Documents\Projects\EventsPortal\EventPortal\EventPortal.Android\obj\Release\81\linksrc\Xamarin.Forms.Platform.Android.dll.mdb

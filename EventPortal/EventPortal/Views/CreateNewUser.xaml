@@ -7,32 +7,32 @@
         <ScrollView>
             <StackLayout HorizontalOptions="FillAndExpand" Spacing="8" Padding="24,16">
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblUsername" Text="Username" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                    <Label  Text="Username" TextColor="Black" FontSize="Small"></Label>
+                    <Entry x:Name="lblUsername" PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblPassword" Text="Password" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
+                    <Label  Text="Password" TextColor="Black" FontSize="Small"></Label>
+                    <Entry x:Name="lblPassword" PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblConfirmPassword" Text="Confirm Password" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
+                    <Label Text="Confirm Password" TextColor="Black" FontSize="Small"></Label>
+                    <Entry x:Name="lblConfirmPassword"  PlaceholderColor="DarkGray" IsPassword="True" BackgroundColor="#F0F0F0" ></Entry>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblEmail" Text="Email" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                    <Label  Text="Email" TextColor="Black" FontSize="Small"></Label>
+                    <Entry x:Name="lblEmail" PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblAddress" Text="Address" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
+                    <Label Text="Address" TextColor="Black" FontSize="Small"></Label>
+                    <Entry  x:Name="lblAddress" PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" ></Entry>
                 </StackLayout>
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblPhone" Text="Phone" TextColor="Black" FontSize="Small"></Label>
-                    <Entry PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" Keyboard="Telephone"></Entry>
+                    <Label Text="Phone" TextColor="Black" FontSize="Small"></Label>
+                    <Entry  x:Name="lblPhone" PlaceholderColor="DarkGray" BackgroundColor="#F0F0F0" Keyboard="Telephone"></Entry>
                 </StackLayout>
                 
                 <StackLayout Padding="0" Margin="0">
-                    <Label x:Name="lblPicker" Text="User Group" TextColor="Black" FontSize="Small"></Label>
+                    <Label  Text="User Group" TextColor="Black" FontSize="Small"></Label>
                     <Picker x:Name="picker" SelectedItem=""></Picker>
                 </StackLayout>
                 
@@ -60,7 +60,8 @@
                                 Margin="0,16" 
                                 BorderColor="DarkGray"
                                 BackgroundColor="Orange"
-                                HorizontalOptions="FillAndExpand"></Button>
+                                HorizontalOptions="FillAndExpand"
+                                Clicked="CreateNewUserClicked"></Button>
 
 
             </StackLayout>

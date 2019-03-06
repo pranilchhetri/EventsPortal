@@ -19,7 +19,6 @@ namespace EventPortal
     public partial class MainPage : MasterDetailPage
     {
         RestServices restServices;
-        
         public MainPage()
         {
             InitializeComponent();
@@ -29,6 +28,7 @@ namespace EventPortal
 
         private async void FetchItemFromServer()
         {
+            
             bool x = await restServices.FetchItemAsync(Constants.FetchEventsUrl);
             if (x)
             {
@@ -38,8 +38,7 @@ namespace EventPortal
         }
         private void Home_Clicked(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new HomePage());
-            IsPresented = false;
+            FetchItemFromServer();
         }
         private void CreateNewEvent(object sender, EventArgs e)
         {

@@ -17,7 +17,7 @@ namespace EventPortal
 		public HomePage()
 		{
 			InitializeComponent ();
-
+            toolbarName.Text = Helpers.Settings.LoginUser;
             newsSource.ItemsSource = RestServices.events;
             //newsSource.ItemsSource =AddNews();
 

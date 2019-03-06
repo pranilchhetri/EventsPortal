@@ -1,4 +1,7 @@
-﻿using System;
+﻿using EventPortal.Data;
+using EventPortal.Models;
+using Rg.Plugins.Popup.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -13,9 +16,11 @@ namespace EventPortal.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CreateNewUser : ContentPage
 	{
+        RestServices restServices;
 		public CreateNewUser ()
 		{
 			InitializeComponent ();
+            restServices = new RestServices();
             picker.ItemsSource = AddUserGroup();
 
 		}
@@ -42,6 +47,38 @@ namespace EventPortal.Views
             
             userGroup.Add(createGroupEntryHere.Text);
             newGroup.IsVisible = false;
+        }
+
+        private async void CreateNewUserClicked(object sender, EventArgs e)
+        {
+            User user = new User();
+            user.Username = lblUsername.Text;
+            user.Password = lblPassword.Text;
+            user.Address = lblAddress.Text;
+            user.Email = lblEmail.Text;
+            user.Phone = lblPhone.Text;
+            user.Usergroup= userGroup[picker.SelectedIndex];
+
+            bool x = await restServices.SaveNewUserAsync(user, true);
+            if (x)
+            {
+                lblUsername.Text = "";
+                lblPassword.Text = "";
+                lblAddress.Text = "";
+                lblPhone.Text = "";
+                lblEmail.Text = "";
+                lblConfirmPassword.Text = "";
+                Console.WriteLine("EventPortal : successfully upload data..");
+                PopupSingle p = new PopupSingle();
+                await Navigation.PushPopupAsync(p);
+
+            }
+            else
+            {
+                Console.WriteLine("EventPortal : Error occured uploading data..");
+            }
+
+
         }
     }
 }

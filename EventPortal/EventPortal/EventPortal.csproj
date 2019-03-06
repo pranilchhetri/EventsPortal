@@ -12,6 +12,7 @@
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="Rg.Plugins.Popup" Version="1.1.5.188" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="4.1.0-beta" />
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
   </ItemGroup>
 
@@ -21,6 +22,12 @@
     </Compile>
     <Compile Update="Views\NewsDetails.xaml.cs">
       <DependentUpon>NewsDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PopupSingle - Copy.xaml.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\UnableCreateEvent.xaml.cs">
+      <DependentUpon>UnableCreateEvent.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
@@ -43,7 +50,13 @@
     <EmbeddedResource Update="Views\NewsDetails.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\PopupSingle.xaml">
+    <EmbeddedResource Update="Views\PopSuccessLogin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\PopupInvalidLogin.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\UnableCreateEvent.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

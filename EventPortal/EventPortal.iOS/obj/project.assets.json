@@ -25,6 +25,15 @@
           "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
         }
       },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -154,6 +163,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
           "Rg.Plugins.Popup": "1.1.5.188",
+          "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -188,6 +198,15 @@
           "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
         }
       },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -317,6 +336,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
           "Rg.Plugins.Popup": "1.1.5.188",
+          "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -351,6 +371,15 @@
           "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
         }
       },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -480,6 +509,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
           "Rg.Plugins.Popup": "1.1.5.188",
+          "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -514,6 +544,15 @@
           "lib/Xamarin.IOS/Rg.Plugins.Popup.dll": {}
         }
       },
+      "Xam.Plugins.Settings/4.1.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Settings.dll": {}
+        }
+      },
       "Xamarin.Forms/3.1.0.697729": {
         "type": "package",
         "compile": {
@@ -643,6 +682,7 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
           "Rg.Plugins.Popup": "1.1.5.188",
+          "Xam.Plugins.Settings": "4.1.0-beta",
           "Xamarin.Forms": "3.1.0.697729"
         },
         "compile": {
@@ -722,6 +762,52 @@
         "readme.txt",
         "rg.plugins.popup.1.1.5.188.nupkg.sha512",
         "rg.plugins.popup.nuspec"
+      ]
+    },
+    "Xam.Plugins.Settings/4.1.0-beta": {
+      "sha512": "BpKTyb2kGs8bu0MXThk7GL74df5qToztrDL2jdm6YnkblxVESZEJMbxDqOdVRvfJycujg2cuyqnqjT9DPknU2Q==",
+      "type": "package",
+      "path": "xam.plugins.settings/4.1.0-beta",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.Settings.dll",
+        "lib/monoandroid44/Plugin.Settings.pdb",
+        "lib/monoandroid44/Plugin.Settings.xml",
+        "lib/net45/Plugin.Settings.dll",
+        "lib/net45/Plugin.Settings.pdb",
+        "lib/net45/Plugin.Settings.xml",
+        "lib/netcoreapp2.0/Plugin.Settings.dll",
+        "lib/netcoreapp2.0/Plugin.Settings.pdb",
+        "lib/netcoreapp2.0/Plugin.Settings.xml",
+        "lib/netstandard1.0/Plugin.Settings.dll",
+        "lib/netstandard1.0/Plugin.Settings.pdb",
+        "lib/netstandard1.0/Plugin.Settings.xml",
+        "lib/netstandard2.0/Plugin.Settings.dll",
+        "lib/netstandard2.0/Plugin.Settings.pdb",
+        "lib/netstandard2.0/Plugin.Settings.xml",
+        "lib/tizen40/Plugin.Settings.dll",
+        "lib/tizen40/Plugin.Settings.pdb",
+        "lib/tizen40/Plugin.Settings.xml",
+        "lib/uap10.0.15063/Plugin.Settings.dll",
+        "lib/uap10.0.15063/Plugin.Settings.pdb",
+        "lib/uap10.0.15063/Plugin.Settings.pri",
+        "lib/uap10.0.15063/Plugin.Settings.xml",
+        "lib/xamarinios10/Plugin.Settings.dll",
+        "lib/xamarinios10/Plugin.Settings.pdb",
+        "lib/xamarinios10/Plugin.Settings.xml",
+        "lib/xamarinmac20/Plugin.Settings.dll",
+        "lib/xamarinmac20/Plugin.Settings.pdb",
+        "lib/xamarinmac20/Plugin.Settings.xml",
+        "lib/xamarintvos10/Plugin.Settings.dll",
+        "lib/xamarintvos10/Plugin.Settings.pdb",
+        "lib/xamarintvos10/Plugin.Settings.xml",
+        "lib/xamarinwatchos10/Plugin.Settings.dll",
+        "lib/xamarinwatchos10/Plugin.Settings.pdb",
+        "lib/xamarinwatchos10/Plugin.Settings.xml",
+        "readme.txt",
+        "xam.plugins.settings.4.1.0-beta.nupkg.sha512",
+        "xam.plugins.settings.nuspec"
       ]
     },
     "Xamarin.Forms/3.1.0.697729": {
@@ -888,6 +974,7 @@
       "EventPortal >= 1.0.0",
       "Newtonsoft.Json >= 12.0.1",
       "Rg.Plugins.Popup >= 1.1.5.188",
+      "Xam.Plugins.Settings >= 4.1.0-beta",
       "Xamarin.Forms >= 3.1.0.697729"
     ]
   },
@@ -935,6 +1022,10 @@
           "Rg.Plugins.Popup": {
             "target": "Package",
             "version": "[1.1.5.188, )"
+          },
+          "Xam.Plugins.Settings": {
+            "target": "Package",
+            "version": "[4.1.0-beta, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
